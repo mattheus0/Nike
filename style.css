@@ -57,7 +57,7 @@ iframe{
 .video{
     margin: auto;
     width: 90%;
-    border: 1px solid black;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@ iframe{
     width: 100%;
 }
 .novaera{
-    border: 1px solid black;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +100,7 @@ iframe{
 .inglaterra{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    
     padding:0px 16px ;
     
 }
@@ -113,25 +113,132 @@ iframe{
     margin:20px 0px 40px 30px ;
     width: 24%;
 }
-
+.inglaterra a:hover{
+    background-color: #353535 ;
+}
 .inglaterra img{
-    max-width: 470px;
-
-
-   
+    max-width: 481px;
 }
-
-
-
-.bottom{
-   
+.presentear p{
+    padding: 10px;
+    font-size: 22px;
 }
-
-
-
-
-
-
+.presentear{
+    display: flex;
+    flex-direction: column;
+    
+    padding:0px 16px ;
+}
+.presentear img{
+    max-width: 481px;
+}
+.diadospais{
+    margin-bottom: 30px;
+}
+.diadospais img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.diadospais a{
+    text-decoration: none;
+    color: white;
+    background-color: #0D0D0D;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 14px;
+    width: 130px;
+}
+.diadospais a:hover{
+    background-color: #353535 ;
+}
+.infantil p{
+    padding: 10px;
+    font-size: 22px;
+}
+.infantil{
+    display: flex;
+    flex-direction: column;
+    
+    padding:0px 16px ;
+    margin-bottom: 20px;
+}
+.infantil img{
+    max-width: 481px;
+}
+.voltaAsAulas img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.voltaAsAulas a{
+    text-decoration: none;
+    color: white;
+    background-color: #0D0D0D;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 14px;
+    width: 130px;
+}
+.voltaAsAulas a:hover{
+    background-color: #353535 ;
+}
+.selecao{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+}
+.selecao img{
+    width: 100%;
+}
+.colecao img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.colecao a{ 
+    text-decoration: none;
+    color: white;
+    background-color: #0D0D0D;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 14px;
+    width: 130px;
+}
+.colecao a:hover{
+    background-color: #353535 ;
+}
+.mais{
+    
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+.mais a{
+    display: block;
+    text-decoration: none;
+    color: #0D0D0D;
+    border-top:1px solid black ;
+    font-size: 15px;
+    padding: 14px 25px;
+    
+}
+.linksmais{
+    
+    width: 88%;
+}
 footer{
     color: white;
     background-color: #0D0D0D;
@@ -153,7 +260,6 @@ footer a{
     border-bottom: 1px solid rgba(255, 255, 255, 0.61);
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 .link1 a{
     display: block;
