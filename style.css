@@ -7,9 +7,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
+    border: 1px solid black;
     height: 13vh;
     position: fixed;
-    width: 100%;
+    width: 99%;
     background-color: white;
 }
 #navegacao{  
@@ -111,7 +112,7 @@ iframe{
     border-radius: 30px;
     padding: 14px;
     margin:20px 0px 40px 30px ;
-    width: 24%;
+    width: 130px;
 }
 .inglaterra a:hover{
     background-color: #353535 ;
@@ -221,7 +222,6 @@ iframe{
     background-color: #353535 ;
 }
 .mais{
-    
     margin: 40px 0px;
     display: flex;
     justify-content: center;
@@ -231,12 +231,11 @@ iframe{
     text-decoration: none;
     color: #0D0D0D;
     border-top:1px solid black ;
+    border-bottom:1px solid rgba(0, 0, 0, 0.39) ;
     font-size: 15px;
-    padding: 14px 25px;
-    
+    padding: 14px 25px; 
 }
 .linksmais{
-    
     width: 88%;
 }
 footer{
