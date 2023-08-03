@@ -8,9 +8,9 @@
 }
 header{
     border: 1px solid black;
-    height: 13vh;
+    height: 18vh;
     position: fixed;
-    width: 99%;
+    width: 100%;
     background-color: white;
 }
 #navegacao{  
@@ -18,9 +18,6 @@ header{
     width:100%;
     padding: 10px;
     justify-content:space-between;
-}
-#logo{
-    
 }
 #logo img{
     width: 45px;
@@ -49,22 +46,6 @@ nav a{
     background-color:#c5c5c5d7;
 }
 
-
-iframe{
-    width: 100%;
-    height: 400px;
-
-}
-.video{
-    margin: auto;
-    width: 90%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    
-}
 .sessoes{
     display: flex;
     flex-direction: column;
@@ -72,17 +53,21 @@ iframe{
     width: 100%;
 }
 .novaera{
-    
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin-top: 18vh;
     margin-bottom: 100px;
+
 }
 .novaera img{
     max-width: 481px;
+    width: 98%;
 }
+
 .novalinks a{
     text-decoration: none;
     color: white;
@@ -93,17 +78,18 @@ iframe{
 .novalinks a:hover{
     background-color: #353535 ;
 }
+#tituloI{
+    font-size: 23px;
+}
 .inglaterra p{
     padding: 10px;
-    font-size: 22px;
+    font-size: 14px;
 
 }
 .inglaterra{
     display: flex;
     flex-direction: column;
-    
     padding:0px 16px ;
-    
 }
 .inglaterra a{ 
     text-decoration: none;
