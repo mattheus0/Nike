@@ -16,6 +16,10 @@ header{
     width: 100%;
     background-color: white;
 }
+#SaibaMais{
+    align-self: start;
+    margin-left:20% ;
+}
 #navegacao{  
     display: flex;
     width:100%;
