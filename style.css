@@ -9,8 +9,8 @@
 body{
     margin: 0 auto;
 }
+
 header{
-    
     height: 18vh;
     position: fixed;
     width: 100%;
@@ -24,6 +24,7 @@ header{
 }
 #logo img{
     width: 45px;
+    
 }
 nav{
     display: flex;
@@ -53,6 +54,7 @@ nav a{
 }
 
 .sessoes{
+    
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -70,7 +72,7 @@ nav a{
 
 }
 .novaera img{
-    max-width: 481px;
+    max-width: 98%;
     width: 98%;
     margin-bottom: 20px;
 }
@@ -113,7 +115,8 @@ nav a{
     background-color: #353535 ;
 }
 .inglaterra img{
-    max-width: 481px;
+    max-width: 100%;
+    
 }
 .presentear p{
     padding: 10px;
@@ -128,7 +131,7 @@ nav a{
     padding:0px 16px ;
 }
 .presentear img{
-    max-width: 481px;
+    max-width: 100%;
 }
 .diadospais{
     margin-bottom: 30px;
@@ -168,7 +171,7 @@ nav a{
     margin-top: 30px;
 }
 .infantil img{
-    max-width: 481px;
+    max-width: 100%;
 }
 .voltaAsAulas img{
     
@@ -249,18 +252,22 @@ nav a{
     width: 88%;
 }
 footer{
+    
     color: white;
     background-color: #0D0D0D;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .centralF{
-    height: 79vh;
+    
+    height: 100%;
     width: 87vw;
 }
 footer a{
+    
     color: white;
     text-decoration: none;
     font-size: 16px;
